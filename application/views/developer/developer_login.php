@@ -41,6 +41,7 @@
                             <div class="single-input-wrapper">
                                 <label>Password:</label>
                                 <input id="password" name="password" type="password" placeholder="Password" required>
+
                             </div>
 
                             <div class="single-input-wrapper">
@@ -49,13 +50,7 @@
                             </div>
 
                             
-                          <!--   <div class="single-checkbox-filter">
-                                <div class="check-box">
-                                    <input type="checkbox" id="type-1">
-                                    <label for="type-1">Remember Me</label><br>
-                                </div>
-                            </div>
- -->
+            
 
                             <button class="rts-btn btn-primary" type="submit" name="webmasterLogin">Login</button>
 
@@ -81,74 +76,9 @@
     </div>
 
 
-    <!-- header style two -->
-    <div id="side-bar" class="side-bar header-two">
-        <button class="close-icon-menu"><i class="far fa-times"></i></button>
-        <!-- inner menu area desktop start -->
-        <div class="inner-main-wrapper-desk">
-            <div class="thumbnail">
-                <img src="<?php echo base_url(); ?>modules/webmaster/assets/images/banner/04.jpg" alt="elevate">
-            </div>
-            <div class="inner-content">
-                <h4 class="title">We Build Building and Great Constructive Homes.</h4>
-                <p class="disc">
-                    We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.
-                </p>
-                <div class="footer">
-                    <h4 class="title">Got a project in mind?</h4>
-                    <a href="contact.html" class="rts-btn btn-primary">Let's talk</a>
-                </div>
-            </div>
-        </div>
-       
-    </div>
-    <!-- header style two End -->
 
-    <!-- modal -->
-    <div id="myModal-1" class="modal fade" role="dialog">
-        <div class="modal-dialog bg_image">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-bs-dismiss="modal"><i class="fa-light fa-x"></i></button>
-                </div>
-                <div class="modal-body text-center">
-                    <div class="inner-content">
-                        <div class="title-area">
-                            <span class="pre">Get Our Courses Free</span>
-                            <h4 class="title">Wonderful for Learning</h4>
-                        </div>
-                        <form action="log-in.html#">
-                            <input type="text" placeholder="Your Mail.." required>
-                            <button>Download Now</button>
-                            <span>Your information will never be shared with any third party</span>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- rts backto top start -->
-    <div class="progress-wrap">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
-        </svg>
-    </div>
-    <!-- rts backto top end -->
 
-    <!-- offcanvase search -->
-    <div class="search-input-area">
-        <div class="container">
-            <div class="search-input-inner">
-                <div class="input-div">
-                    <input class="search-input autocomplete" type="text" placeholder="Search by keyword or #">
-                    <button><i class="far fa-search"></i></button>
-                </div>
-            </div>
-        </div>
-        <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
-    </div>
-    <!-- offcanvase search -->
-    <div id="anywhere-home" class="">
+   
     </div>
 
     <!-- all scripts -->

@@ -86,3 +86,4 @@ $route['webmaster_dashboard'] = 'Developer_Controller/developerDashboard';
 $route['enroll_newAdmin'] = 'Developer_Controller/enrollAdmin';
 $route['developerAuth'] = 'Developer_Controller/verifyDeveloper';
 $route['developerLogout'] = 'Developer_Controller/adminLogout';
+

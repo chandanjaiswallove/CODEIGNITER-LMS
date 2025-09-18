@@ -48,7 +48,7 @@
                             <ul class="menu">
                                 <li><a href="course-two.html">Latest Courses</a></li>
                                 <li><a href="about.html">Mission & Vision</a></li>
-                                <li><a href="<?php echo site_url('organizer'); ?>">Organizer</a></li>
+                                <li><a href="<?php echo base_url('organizer'); ?>">Organizer</a></li>
                                 <li><a href="zoom-meeting.html">Zoom Meeting</a></li>
                                 <li><a href="pricing.html">Pricing Plan</a></li>
                             </ul>
